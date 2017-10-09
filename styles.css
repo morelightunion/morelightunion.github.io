@@ -1,0 +1,137 @@
+body {
+	margin: 0px;
+	overflow-x: hidden;
+}
+html {
+	margin: 0px;
+}
+h1 {
+	color: white;
+	margin: 0px;
+	font-size: 9em;
+	font-family: Century Gothic;
+}
+#main {
+	display: block;
+	width: 100%;
+	background-color: #000000;
+	margin-left: 0px;
+	margin-left: 0px;
+}
+#nav {
+	width: 100%;
+	display: inline-block;
+	background-color: #ffffff;
+	border-bottom: 15px black solid;
+	padding-bottom: 15px;
+}
+#nav ul{
+	list-style-type: none;
+}
+ul.firstlist > li {
+	float: left;
+}
+ul.firstlist > li:hover {
+	box-shadow: 0.5px 0.5px 3px black;
+}
+ul.firstlist > li > a{
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18pt;
+	color: #111111;
+	padding: 15px 30px;
+}
+.dropdown_content {
+	max-height: 0px;
+	position: absolute;
+	background-color: #eeeeee;
+	overflow: hidden;
+}
+.dropdown_content ul {
+	margin-top: 20px;
+}
+.dropdown_content li {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18pt;
+	margin-top: 10px;
+}
+.dropdown_btn:hover .dropdown_content{
+	max-height: 100%;
+	transition: 3s ease;
+}	
+#container {
+}
+div.slide {
+	width: 45%;
+	float: left;
+	margin-left: 3.33%;
+	margin-top: 1%;
+	position: relative;
+	box-shadow: 1px 1px 3px #999999;
+}
+div.slide > img.main {
+	filter: brightness(0.6);
+}
+div.movietitle {
+	position: absolute;
+	bottom: 15px;
+	right: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 30pt;
+	color: white;
+	padding: 5px;
+	text-shadow: 1px 1px 2px black;
+	max-width: 65%;
+	opacity: 0;
+}
+div.imdb {
+	position: absolute;
+	bottom: 15px;
+	left: 30px;
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20pt;
+	opacity: 0;
+	max-width: 25%;
+}
+.rating {
+	font-size: 28pt;
+}
+img.star {
+	position: absolute;
+	bottom: 23px;
+	left: 5px;
+	width: 30px;
+	opacity: 0;
+}
+div.slide:hover div.movietitle {
+	opacity: 1;
+	right: 30px;
+	transition: 1s ease-in-out;
+}
+div.slide:hover div.imdb {
+	opacity: 1;
+	transition: 2s ease-in;
+}
+div.slide:hover > img.main {
+	filter: brightness(1);
+	transition: 0.5s ease;
+}
+div.slide:hover > img.star {
+	opacity: 1;
+	transition: 1s;
+}
+#footer {
+	background-color: black;
+	width: 100%;
+	float: left;
+	position: relative;
+	height: 50px;
+}
+#author {
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	position: absolute;
+	right: 20px;
+}
