@@ -47,7 +47,6 @@ div.details {
     width: 100%;
 }
 div.triple {
-    width: 33.33%;
     float: left;
     text-align: center;
     padding-top: 5px;
@@ -57,12 +56,15 @@ div.triple {
     font-family: Arial, Helvetica, sans-serif;
 }
 div.triple1 {
+    width: 50%;
     background-color: #333333;
     color: white;
 }
 div.triple2 {
+    width: 49.4%;
     background-color: white;
     color: black;
+    border-right: 3px #333333 solid;
 }
 img.main {
 	filter: brightness(0.8);
