@@ -52,7 +52,7 @@ div.triple {
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: 3px #008080 solid;
-    border-bottom: 3px #333333 solid;
+    border-bottom: 3px #008080 solid;
     font-family: Arial, Helvetica, sans-serif;
 }
 div.triple1 {
@@ -61,10 +61,13 @@ div.triple1 {
     color: #ffffff;
 }
 div.triple2 {
-    width: 49.4%;
+    width: 50%;
     background-color: white;
     color: black;
     border-right: 3px #333333 solid;
+	        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
 }
 img.main {
 	filter: brightness(0.8);
