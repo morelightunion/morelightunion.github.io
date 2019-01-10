@@ -22,22 +22,19 @@
 
 <body style="height: 100%;">
     <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=install_email
-  page_id="342555683183126"
-  logged_in_greeting="Сайн байна уу, Танд энэ өдрийн мэнд хүргэе."
-  logged_out_greeting="Сайн байна уу, Танд энэ өдрийн мэнд хүргэе.">
-</div>
+    <!-- Your customer chat code -->
+    <div style="height: 100px;" class="fb-customerchat" attribution=install_email page_id="342555683183126" logged_in_greeting="Сайн байна уу, Танд энэ өдрийн мэнд хүргэе."
+        logged_out_greeting="Сайн байна уу, Танд энэ өдрийн мэнд хүргэе.">
+    </div>
 </body>
 
 </html>
